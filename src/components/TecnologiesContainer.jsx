@@ -7,7 +7,7 @@ const technologies = [
     { id: "css", name: "CSS3",text:"", icon: <DiCss3 /> },
     { id: "js", name: "JavaScript",text:"", icon: <DiJsBadge /> },
     { id: "node", name: "Node.js",text:"", icon: <DiNodejsSmall /> },
-    { id: "mysql", name: "Mongodb",text:"", icon: <DiMongodb /> },
+    { id: "mongo", name: "MongoDB",text:"", icon: <DiMongodb /> },
     { id: "react-native", name: "React-Native",text:"", icon: <DiReact  /> },
     { id: "react", name: "React",text:"", icon: <DiReact /> },
   ];
