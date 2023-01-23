@@ -3,13 +3,24 @@
 #portfolio
     display: flex
     flex-wrap: wrap
-    padding: 3rem
-    gap: 3rem
+    padding: 1rem
+    gap: 2rem
+    
 
-    h1
-        width: 100%
-        font-size: 5rem
-        margin-bottom: 4rem
-        background: variables.$gradient
-        -webkit-background-clip: text
-        -webkit-text-fill-color: transparent
+
+@media screen and ( max-width:1000px  )
+    #portfolio
+     display: flex
+     flex-wrap: wrap
+     padding: 5rem 1rem
+     gap: 2rem
+     flex-direction: column
+        
+@media screen and ( max-width:700px  )
+    #portfolio
+        display: flex
+        flex-wrap: wrap
+        padding: 1rem 0.4rem
+        gap:  1rem
+        flex-direction: column
+    

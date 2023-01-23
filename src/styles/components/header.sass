@@ -1,0 +1,73 @@
+@use '../variables'
+@use '../mixins'
+
+$mobile: 700px
+$tablet: 1000px
+$desktop: 1700px
+
+@media screen and ( max-width:$desktop  )
+  
+
+  .cabecalho
+    @include mixins.center
+    width: 100%
+    display: flex
+    padding: 1rem
+    gap: 3rem
+    
+
+    h1
+     width: 100%
+     font-size: 5rem
+     margin-bottom: 3rem
+
+     background: variables.$gradient
+     -webkit-background-clip: text
+     -webkit-text-fill-color: transparent
+    .animation
+     height: 20rem
+     width:  20rem
+@media screen and ( max-width:$tablet  )
+  
+
+  .cabecalho
+
+    @include mixins.center
+    width: 100%
+    display: flex
+    padding: -3rem
+    gap: 3rem
+
+    h1
+     width: 100%
+     font-size: 5rem
+     margin-bottom: 3rem
+    
+
+     background: variables.$gradient
+     -webkit-background-clip: text
+     -webkit-text-fill-color: transparent
+    .animation
+     height: 10rem
+     width:  10rem
+
+@media screen and ( max-width:$mobile  )
+  .cabecalho
+    @include mixins.center
+    width: 100%
+    padding: -3rem 0
+    gap: 3rem
+
+    h1
+     width: 100%
+     font-size: 4rem
+     text-align: center
+     margin-bottom: 3rem
+     background: variables.$gradient
+     -webkit-background-clip: text
+     -webkit-text-fill-color: transparent
+  
+    .animation
+     height: 10rem
+     width:  10rem
+    
