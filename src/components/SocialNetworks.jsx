@@ -5,7 +5,7 @@ import '../styles/components/socialNetworks.sass'
 
 const socialNetworks =[
     {name: "linkedin",url:"https://www.linkedin.com/in/tomaz-silva-sampaio-3aa5a7206/", icon:<FaLinkedinIn />},
-    {name: "github",url:"https://github.com/tomazss?tab=repositories", icon:<FaGithub/>},
+    {name: "github",url:"https://github.com/tomazss", icon:<FaGithub/>},
    // {name: "instagram", icon:<FaInstagram/>},
 ];
 
