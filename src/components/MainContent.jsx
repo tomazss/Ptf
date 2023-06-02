@@ -1,15 +1,20 @@
 import '../styles/components/mainContent.sass'
 
 import About from './AboutContainer';
-import Tecnologies from './TecnologiesContainer';
-import Project from './ProjectContainer';
+
+
+import { Outlet } from "react-router-dom";
 
 const MainContent = ()=> {
     return (
         <main id='main-content'>
             <About/>
-            <Tecnologies/>
-            <Project/>
+            <Outlet/>
+            
+
+
+            
+           
         </main>
     );
 }

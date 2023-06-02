@@ -4,7 +4,7 @@ const AboutContainer = (props) => {
     return (
         <section className="about-container">
             <h2>Sobre</h2>
-               <p>Olá,</p>
+            <p>Olá,</p>
       <p>
         Sou <strong>Tomaz Silva Sampaio</strong>,
         estudante de Ciência da Computação
@@ -22,7 +22,6 @@ const AboutContainer = (props) => {
       <p>Seja bem-vindo(a) ao meu
       portfólio. Espero que você aprecie meu trabalho e veja o potencial que
       posso trazer para futuras colaborações e oportunidades no campo</p>
-      
                 
         </section>
     );

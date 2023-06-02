@@ -1,7 +1,10 @@
 import "./styles/components/app.sass";
+
+import "./styles/components/app.sass";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
 import Header from "./components/Header";
+
 
 function App() {
   
@@ -9,12 +12,16 @@ function App() {
   return (
     <div id="portfolio">
     
-      <Header/>
-      <Sidebar/>
-     <MainContent/>
-      
+    <Header/>
+    <Sidebar/>
+   <MainContent/>
+    
+   
+  </div>
+    
      
-    </div>
+     
+    
   )
 }
 
