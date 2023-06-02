@@ -29,7 +29,7 @@ const ListaProjetos = () => {
             {tech.img}
             <div className="projetos-info">
             <a href={tech.url} className='link' id={tech.name} key={tech.name} >
-                <h3>Ver o Projeto</h3>
+                <h3>Ver Projeto</h3>
                 </a>
               
             </div>
