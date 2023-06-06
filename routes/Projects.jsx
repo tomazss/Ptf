@@ -5,7 +5,7 @@ import Organo from '../src/img/organo.png';
 import Insta from '../src/img/insta.png';
 import Tec from '../src/img/tecblog.png';
 import Ptf from '../src/img/ptf.png';
-import Cal from '../src/img/calculadoraAd.png';
+import Cal from '../src/img/finanças.png';
 
 import Tecnologies from '../src/components/TecnologiesContainer';
 
@@ -14,7 +14,7 @@ const porjectsList = [
     { id: "instaBot", name: "InstaBot", img: <img src={Insta}/>,url:"https://github.com/tomazss/instaBot" },
     { id: "tec", name: "TecBlog", img: <img src={Tec} />, url:"https://github.com/tomazss/tecnoblog" },
     { id: "ptf", name: "Portfólio", img: <img src={Ptf}/>,url:"https://github.com/tomazss/Ptf" },
-    { id: "Cal", name: "Calculadora", img: <img src={Cal}/>, url:"https://github.com/tomazss/calculadora_de_aditivo" },
+    { id: "Cal", name: "Finanças", img: <img src={Cal}/>, url:"https://github.com/tomazss/financas" },
     
   ];
 const ListaProjetos = () => {
