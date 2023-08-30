@@ -4,7 +4,7 @@ import '../styles/components/sidebar.sass'
 import InformationContainer from './InformationContainer';
 
 
-import pdf from '../pdf/Currículo-Tomaz.pdf'
+import pdf from '../pdf/Curriculo.pdf'
 
 
 const sidebar = () => {
